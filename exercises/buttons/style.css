@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+.box {
+  padding: 20px;
+  line-height: 36px;
+}
+.shoe {
+  font-size: 24px;
+  font-weight: 700;
+}
+.price {
+  color: rgb(2, 163, 2);
+  font-size: 15px;
+  font-weight: 500;
+}
+.delivery {
+  font-size: 15px;
+  font-weight: 500;
+}
+.cart {
+  color: black;
+  background-color: #fcdb39;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 21px;
+  padding-right: 21px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: opacity 0.36s;
+}
+.cart:hover {
+  opacity: 0.8;
+}
+.cart:active {
+  opacity: 0.4;
+}
+.buy {
+  color: black;
+  background-color: #fda01e;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 21px;
+  padding-right: 21px;
+  border-radius: 45px;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: opacity 0.36s;
+}
+.buy:hover {
+  opacity: 0.8;
+}
+.buy:active {
+  opacity: 0.4;
+}
